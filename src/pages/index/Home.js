@@ -46,7 +46,7 @@ class Home extends React.Component{
       <Header>
         <div className="header-left" onClick={this.index.bind(this)}>
           <img src={require("../../assets/logo.png")} alt="" className="logo"/>
-          <strong className="title">学生管理系统</strong>
+          <strong className="title">会员管理系统</strong>
         </div>
         <div className="header-right">
         <img src={require("../../assets/user-ico.png")} alt=""/>
